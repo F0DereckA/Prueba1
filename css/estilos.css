@@ -1,0 +1,307 @@
+html, body, h1, h2, ul, li, a, p, div, section, header, footer, main, img {
+    margin: 0;
+    padding: 0;
+    font-family: calibri, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #0A2540;
+}
+
+header {
+    width: 95%;
+    margin: 10px auto;
+    padding: 12px 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #0A2540;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+header img {
+    vertical-align: middle;
+    width: 180px;
+    float: left;
+    margin-left: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    line-height: 180px;
+    font-size: 40px;
+    color: #0A2540;
+}
+
+nav {
+    float: right;
+    margin-right: 3%;
+    margin-top: 70px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1E90FF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #0A2540;
+    text-decoration: underline;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+main > img:first-child,
+.bannerPrincipal {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #0A2540;
+    margin: 0 auto 15px auto;
+}
+
+section {
+    border: 2px solid #0A2540;
+    width: 100%;
+    margin: 0 auto 15px auto;
+    padding: 20px;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    background-color: #F4F8FC;
+}
+
+section img {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 40px;
+    border: 2px solid #0A2540;
+}
+
+section div {
+    overflow: hidden;
+    border: 2px solid #0A2540;
+    background-color: #FFFFFF;
+    padding: 20px;
+    min-height: 300px;
+}
+
+section p {
+    font-size: 26px;
+    line-height: 2.0;
+    font-weight: bold;
+    color: #0A2540;
+    padding-left: 10px;
+}
+
+section p strong {
+    color: #0A2540;
+}
+
+section:last-of-type img {
+    float: none;
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    width: 95%;
+    margin: 0 auto 10px auto;
+    clear: both;
+    padding: 20px;
+    font-size: 22px;
+    background-color: #0A2540;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid #0A2540;
+}
+
+.cajaLogin {
+    display: block;
+    border: 2px solid #0A2540;
+    width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #F4F8FC;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #0A2540;
+}
+
+.control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #0A2540;
+    font-size: 18px;
+    background-color: #FFFFFF;
+}
+
+.Boton {
+    width: 160px;
+    padding: 10px;
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    border: 1px solid #0A2540;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Boton:hover {
+    background-color: #0A2540;
+}
+
+form p {
+    text-align: left;
+    font-size: 26px;
+    color: #0A2540;
+}
+
+.fGaleria {
+    display: block;
+    border: 2px solid #0A2540;
+    width: 95%;
+    margin: 10px auto;
+    padding: 0;
+    background-color: #F4F8FC;
+}
+
+.fGaleria img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.fGaleria section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.producto {
+    width: 32%;
+    border: 1px solid #0A2540;
+    min-height: 580px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.producto p {
+    margin: 5px 0;
+    font-size: 15px;
+    line-height: 1.2;
+    padding-left: 0;
+    font-weight: normal;
+}
+
+.producto img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border: 1px solid #0A2540;
+    margin: 10px 0;
+}
+
+.TexDes {
+    border: 1px solid #0A2540;
+    text-align: center;
+    padding: 10px;
+    min-height: 70px;
+}
+
+.Cant {
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+
+    header {
+        text-align: center;
+    }
+
+    header img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+        width: 140px;
+    }
+
+    header h1 {
+        display: block;
+        line-height: normal;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        margin: 15px 0 0 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .cajaLogin {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    .producto {
+        width: 96%;
+        display: block;
+    }
+
+    section img {
+        width: 100%;
+        max-width: 300px;
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    section div {
+        min-height: auto;
+    }
+
+    section p {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+}
