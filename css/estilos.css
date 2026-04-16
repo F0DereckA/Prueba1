@@ -5,13 +5,10 @@ html, body, h1, h2, ul, li, a, p, div, article, form, input {
     box-sizing: border-box;
 }
 
-/* FONDO */
 body {
     background-color: #eef4fb;
     color: #0A2540;
 }
-
-/* HEADER */
 header {
     width: 95%;
     margin: 15px auto;
@@ -65,13 +62,11 @@ nav ul li a:hover {
     color: #1E90FF;
 }
 
-/* MAIN */
 main {
     width: 95%;
     margin: 0 auto;
 }
 
-/* BANNER */
 .bannerPrincipal {
     width: 95%;
     display: block;
@@ -79,7 +74,6 @@ main {
     border-radius: 16px;
 }
 
-/* SECCIONES */
 section {
     width: 95%;
     margin: 15px auto;
@@ -109,7 +103,7 @@ section p {
     font-weight: bold;
 }
 
-/* FOOTER */
+
 footer {
     width: 95%;
     margin: 15px auto;
@@ -120,7 +114,6 @@ footer {
     border-radius: 14px;
 }
 
-/* LOGIN */
 .cajaLogin {
     width: 500px;
     margin: 40px auto;
@@ -144,7 +137,6 @@ h2 {
     background-color: #f8fbff;
 }
 
-/* BOTON GENERAL */
 .Boton {
     width: 160px;
     padding: 11px;
@@ -159,7 +151,6 @@ h2 {
     background-color: #0A2540;
 }
 
-/* GALERIA */
 .fGaleria {
     width: 95%;
     margin: 15px auto;
@@ -201,7 +192,6 @@ h2 {
     min-height: 70px;
 }
 
-/* CANTIDAD */
 .caja3 .Cant {
     margin-top: 10px;
     font-size: 15px;
@@ -218,7 +208,6 @@ h2 {
     background-color: #f4f8fd;
 }
 
-/* BOTON PRODUCTO SIMPLE */
 .caja3 .Boton {
     width: 100%;
     margin-top: 10px;
@@ -234,14 +223,12 @@ h2 {
     background-color: #0A2540;
 }
 
-/* CLEAR */
 .caja3:after {
     content: "";
     display: block;
     clear: both;
 }
 
-/* RESPONSIVE */
 @media screen and (max-width: 850px) {
     header {
         text-align: center;
@@ -285,4 +272,13 @@ h2 {
         display: block;
         margin: 0 auto 20px auto;
     }
+}
+
+.foto img {
+    width: 55%;
+    height: 450px;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
 }
