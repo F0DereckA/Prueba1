@@ -1,0 +1,20 @@
+https://github.com/F0DereckA/Prueba1.git
+
+14 de abril de 2026
+
+base del proyecto
+Creación de la estructura inicial del proyecto, incluyendo archivos HTML y CSS base.
+
+15 de abril de 2026
+
+prototipo de index, galeria y css
+Desarrollo inicial de las páginas principales del sistema (index, galería y estilos CSS).
+prototipo 2.0 en agonia
+Mejora del diseño y estructura del sistema, incorporando ajustes visuales y organización del contenido.
+como que son la 4:52 am no dormi nada debo irme a la uni
+Continuación del desarrollo con correcciones generales y optimización del proyecto.
+
+16 de abril de 2026
+
+final final por fin libree
+Versión final del proyecto, incluyendo correcciones de estilos, mejoras visuales y cumplimiento de los requisitos solicitados.
